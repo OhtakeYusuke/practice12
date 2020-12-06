@@ -1,0 +1,8 @@
+<h1>ChatRoom</h1>
+<div id="messages">
+  <% @messages.each do |message| %>
+    <p>
+      <%= message.content %>
+    </p>
+  <% end %>
+</div>
